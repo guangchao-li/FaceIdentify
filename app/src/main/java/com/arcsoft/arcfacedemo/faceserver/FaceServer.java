@@ -390,7 +390,7 @@ public class FaceServer {
         byte[] headImageData = ArcSoftImageUtil.createImageData(cropRect.width(), cropRect.height(), imageFormat);
         int cropCode = ArcSoftImageUtil.cropImage(originImageData, headImageData, width, height, cropRect, imageFormat);
         if (cropCode != ArcSoftImageUtilError.CODE_SUCCESS) {
-            throw new RuntimeException("crop image failed, code is " + cropCode);
+//            throw new RuntimeException("crop image failed, code is " + cropCode);
         }
 
         //判断人脸旋转角度，若不为0度则旋转注册图

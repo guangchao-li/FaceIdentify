@@ -4,21 +4,21 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class FaceModel {
-    @Expose
-    @SerializedName("equipmentId")
-    private String equipmentId;
+//    @Expose
+//    @SerializedName("equipmentId")
+//    private String equipmentId;
 
     @Expose
     @SerializedName("faceFeature")
     private String faceFeature;
 
-    public String getEquipmentId() {
-        return equipmentId;
-    }
-
-    public void setEquipmentId(String equipmentId) {
-        this.equipmentId = equipmentId;
-    }
+//    public String getEquipmentId() {
+//        return equipmentId;
+//    }
+//
+//    public void setEquipmentId(String equipmentId) {
+//        this.equipmentId = equipmentId;
+//    }
 
     public String getFaceFeature() {
         return faceFeature;
@@ -29,7 +29,7 @@ public class FaceModel {
     }
 
     public FaceModel(String equipmentId, String faceFeatures) {
-        this.equipmentId = equipmentId;
+//        this.equipmentId = equipmentId;
         this.faceFeature = faceFeatures;
     }
 }

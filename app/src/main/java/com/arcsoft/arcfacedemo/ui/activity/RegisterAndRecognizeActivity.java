@@ -343,24 +343,24 @@ public class RegisterAndRecognizeActivity extends BaseActivity implements ViewTr
         if(work!=null){
             if(work!=null){
                     llshow.setVisibility(View.VISIBLE);
-                    name.setText("姓名："+work.getWorkerName() +"   年龄："+work.getAge());
+                    name.setText("姓名："+work.getWorkerName() +"   年龄："+work.getAge()+" 岁");
                     xm.setText("进场时间：" +work.getJoinTime());
-                    ry.setText("工种："+work.getWorkerType()+"   工龄："+work.getWorkYears());
+                    ry.setText("工种："+work.getWorkerType()+"   工龄："+work.getWorkYears()+" 年");
 
                     llshow1.setVisibility(View.VISIBLE);
                     name1.setText("重大病史："+work.getMajorMedicalHistory());
                     xm1.setText("是否体检："+work.getIsPhysicalExamed());
-                    ry1.setText("安全考试得分："+work.getSafetyEducationScore());
+                    ry1.setText("安全考试得分："+work.getSafetyEducationScore()+" 分");
 
                     llshow3.setVisibility(View.VISIBLE);
-                    name3.setText("所属项目："+work.getProjectName());
-                    xm3.setText("所属架子队："+work.getSelfName());
+                    name3.setText("所属项目："+work.getProjectDepartmentName());
+                    xm3.setText("所属架子队："+work.getShelfTeamName());
                     ry3.setText("所在班组："+work.getTeamName());
 
                     llshow4.setVisibility(View.VISIBLE);
                     name4.setText("行为安全之星："+work.getBehaviorSafetystars());
-                    xm4.setText("不良记录："+work.getBadRecordCount());
-                    ry4.setText("良好记录："+work.getGoodRecordCount());
+                    xm4.setText("不良记录："+work.getBadRecordCount()+" 次");
+                    ry4.setText("良好记录："+work.getGoodRecordCount()+" 次");
             }
         }
     }

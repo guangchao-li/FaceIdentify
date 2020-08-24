@@ -29,12 +29,12 @@ public class WorkerInfoDto {
     /**
      * 所在项目部
      */
-    private String projectName;
+    private String projectDepartmentName;
 
     /**
      * 所在架子队
      */
-    private String selfName;
+    private String shelfTeamName;
 
     /**
      * 班组名称
@@ -115,20 +115,20 @@ public class WorkerInfoDto {
         this.workYears = workYears;
     }
 
-    public String getProjectName() {
-        return projectName;
+    public String getProjectDepartmentName() {
+        return projectDepartmentName;
     }
 
-    public void setProjectName(String projectName) {
-        this.projectName = projectName;
+    public void setProjectDepartmentName(String projectDepartmentName) {
+        this.projectDepartmentName = projectDepartmentName;
     }
 
-    public String getSelfName() {
-        return selfName;
+    public String getShelfTeamName() {
+        return shelfTeamName;
     }
 
-    public void setSelfName(String selfName) {
-        this.selfName = selfName;
+    public void setShelfTeamName(String shelfTeamName) {
+        this.shelfTeamName = shelfTeamName;
     }
 
     public String getTeamName() {

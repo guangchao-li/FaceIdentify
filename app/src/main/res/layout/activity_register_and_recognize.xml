@@ -40,6 +40,7 @@
 
                 </FrameLayout>
             <LinearLayout
+                android:layout_marginTop="20dp"
                 android:layout_width="180dp"
                 android:layout_height="80dp"
                 android:orientation="horizontal"
@@ -218,7 +219,7 @@
             android:layout_gravity="right|top"
             android:id="@+id/ll_show3"
             android:background="@mipmap/bg"
-            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
             android:orientation="vertical"
             android:layout_width="wrap_content"
@@ -227,11 +228,12 @@
             <TextView
                 android:id="@+id/tv_name3"
                 android:text=""
+                android:maxLines="3"
                 android:textColor="@color/color_white"
                 android:layout_marginTop="25dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"/>
             <View
                 android:layout_marginLeft="50dp"
@@ -246,6 +248,7 @@
                 android:textColor="@color/color_white"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <View
@@ -258,6 +261,7 @@
             <TextView
                 android:id="@+id/tv_ry3"
                 android:text=""
+                android:layout_marginRight="50dp"
                 android:layout_marginLeft="50dp"
                 android:textColor="@color/color_white"
                 android:layout_marginTop="5dp"
@@ -277,8 +281,8 @@
             android:layout_gravity="right|bottom"
             android:id="@+id/ll_show4"
             android:background="@mipmap/bg"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">

@@ -11,7 +11,7 @@ import retrofit2.http.POST;
 
 public interface ApiService {
 
-    @POST("/web/workerInfo")
+    @POST("/api/attendance/glasses")
     Observable<JsonObjBase<WorkerInfoDto>> getMissedCount(@Body FaceModel model);
 
 }
