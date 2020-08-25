@@ -12,7 +12,7 @@ public class Constants {
      */
     public static final String APP_ID = "Bd9n7mCgG5b7PPmvWjh1h7Gdb9HBhFiQqpRmFH6ZqfU2";
     public static final String SDK_KEY = "9LamVon7KCnJKtHhPxt5kwsWn2Gdhq4KDWtqn6jJxzVy";
-    public static final String ACTIVE_KEY = "85T1-113L-N13U-RURM";
+    public static final String ACTIVE_KEY = "85T1-113L-N11F-MGYX";
 
     /**
      * 方式二： 在激活界面读取本地配置文件进行激活

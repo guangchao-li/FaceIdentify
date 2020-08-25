@@ -35,7 +35,7 @@ public class RetrofitManager {
     private static RetrofitManager sInstance;
     private Retrofit mRetrofit;
     private static Context mContext;
-    private String baseUrl = "http://192.168.1.108/";
+    private String baseUrl = "http://124.133.5.194:10002/";
     public static RetrofitManager getInstance() {
         if (null == sInstance) {
             synchronized (RetrofitManager.class) {

@@ -349,7 +349,11 @@ public class RegisterAndRecognizeActivity extends BaseActivity implements ViewTr
 
                     llshow1.setVisibility(View.VISIBLE);
                     name1.setText("重大病史："+work.getMajorMedicalHistory());
-                    xm1.setText("是否体检："+work.getIsPhysicalExamed());
+                    if(work.getIsPhysicalExamed()!=null){
+                        xm1.setText("是否体检："+work.getIsPhysicalExamed());
+                    }else{
+                        xm1.setText("是否体检： 暂无信息");
+                    }
                     ry1.setText("安全考试得分："+work.getSafetyEducationScore()+" 分");
 
                     llshow3.setVisibility(View.VISIBLE);
