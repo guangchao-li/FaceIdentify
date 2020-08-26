@@ -760,6 +760,10 @@ public class RegisterAndRecognizeActivity extends BaseActivity implements ViewTr
                     work = userJsonObjBase.getData();
                     show(1);
                 }else{
+                    llshow.setVisibility(View.GONE);
+                    llshow1.setVisibility(View.GONE);
+                    llshow3.setVisibility(View.GONE);
+                    llshow4.setVisibility(View.GONE);
                     Toast.makeText(RegisterAndRecognizeActivity.this, "无此人信息", Toast.LENGTH_SHORT).show();
                 }
             }
