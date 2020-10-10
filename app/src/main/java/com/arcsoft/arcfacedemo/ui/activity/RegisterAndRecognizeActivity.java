@@ -358,7 +358,7 @@ public class RegisterAndRecognizeActivity extends BaseActivity implements ViewTr
 
                     llshow3.setVisibility(View.VISIBLE);
                     name3.setText("所属项目："+work.getProjectDepartmentName());
-                    xm3.setText("所属架子队："+work.getShelfTeamName());
+//                    xm3.setText("所属架子队："+work.getShelfTeamName());
                     ry3.setText("所在班组："+work.getTeamName());
 
                     llshow4.setVisibility(View.VISIBLE);
@@ -461,10 +461,10 @@ public class RegisterAndRecognizeActivity extends BaseActivity implements ViewTr
                 } else {
                     parentView.removeView(textViewRgb);
                 }
-                textViewRgb.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-                textViewRgb.setText(getString(R.string.camera_rgb_preview_size, previewSizeRgb.width, previewSizeRgb.height));
-                textViewRgb.setTextColor(Color.WHITE);
-                textViewRgb.setBackgroundColor(getResources().getColor(R.color.color_bg_notification));
+//                textViewRgb.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+//                textViewRgb.setText(getString(R.string.camera_rgb_preview_size, previewSizeRgb.width, previewSizeRgb.height));
+//                textViewRgb.setTextColor(Color.WHITE);
+//                textViewRgb.setBackgroundColor(getResources().getColor(R.color.color_bg_notification));
                 parentView.addView(textViewRgb);
                 // 父View宽度和子View一致，保持居中
                 ViewGroup.LayoutParams parentLayoutParams = parentView.getLayoutParams();
